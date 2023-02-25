@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/* - Mobile: 375px */
+/* - Desktop: 1440px */
+
+:root {
+    --blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --very-blue: hsl(217, 54%, 11%);
+    --dark-blue: hsl(216, 50%, 16%);
+    --dark-blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+
+    --outfit: 'Outfit', sans-serif;
+}
+
+body {
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+    min-width: 375px;
+
+    background-color: var(--very-blue);
+    font-family: var(--outfit);
+}
+
+.container img {
+    width: 100%;
+}
+
+.container {
+    border-radius: 12px;
+    padding: 20px;
+    background-color: var(--dark-blue);
+}
+
+#equilibrium {
+    color: var(--white);
+    font-size: 18px;
+}
+
+#description {
+    color: var(--blue);
+    font-size: 16px;
+    width: 70%;
+    font-weight: 300;
+}
+
+#eth {
+    color: var(--cyan);
+    display: flex;
+    align-items: center;
+}
+
+svg {
+    margin-right: 8px;
+}
+
+#days-left {
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+}
+
+#eth-days {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-weight: 500;
+}
+
+hr {
+    border-color: var(--dark-blue-line);
+}
+
+/* --------------- Creation ------------- */
+#creation {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+#creation img {
+    width: 40px;
+    border-radius: 100%;
+    border: 1px var(--white) solid;
+}
+
+#createdby {
+    margin-left: 20px;
+    color: var(--blue);
+}
+
+#createdby span {
+    color: var(--white);
+}
+
+/* --------------footer-------------- */
+footer {
+    margin-top: 100px;
+    text-align: center;
+    color: var(--blue);
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cyan);
+    font-weight: 600;
+}
+
+
+/* ---------------Desktop--------------- */
+@media (min-width: 549px) {
+    .container {
+        width: 320px;
+        margin: auto;
+        margin-top: 140px;
+    }
+
+
+    #equilibrium {
+        font-size: 15px;
+    }
+
+    #description {
+        font-size: 14px;
+    }
+
+    footer{
+        margin-top: 150px;
+    }
+}
