@@ -74,6 +74,17 @@ hr {
     border-color: var(--dark-blue-line);
 }
 
+#equilibrium:hover,
+#createdby span:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.container img:hover {
+    /* background-image: url(./images/icon-view.svg); */
+}
+
+
 /* --------------- Creation ------------- */
 #creation {
     display: flex;
@@ -131,7 +142,7 @@ footer a {
         font-size: 14px;
     }
 
-    footer{
+    footer {
         margin-top: 150px;
     }
 }
