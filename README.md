@@ -1,7 +1,7 @@
 # Welcome! 👋
 
 ## Frontend Mentor - NFT preview card component
-Link: https://equilibrium3429.netlify.app/
+Live site: https://equilibrium3429.netlify.app/
 
 ![Design preview for the NFT preview card component coding challenge](/desktop-preview.jpg)
 
